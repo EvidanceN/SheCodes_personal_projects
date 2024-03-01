@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Moonlight Events</title>
+    <style>
+        .web_content{
+             text-align: center;
+             font-size: 30px;
+        }
+        body{
+          background: linear-gradient(#d61a88,lightcoral,pink);
+        }
+        .website-url{
+          text-decoration:none;
+
+        }
+        h3{
+          text-align: center;
+        }      
+
+        
+        h2{
+                font-size: 30px;
+                font-weight: lighter;
+                text-align: center;
+            }
+        
+        img{
+            width:50%;
+            height:50%;
+            border: 2px solid #d61a88;
+            border-radius: 25px;
+            display: inline-block;
+            padding: 10px 20px;
+
+        }
+        
+        ul{
+            text-align: center;
+        }
+        ol{
+          list-style-type: none;
+        }
+        button{
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #d61a88;
+            background: #d61a88;
+            color: black;
+            font-size: 16px;
+            line-height: 22px;
+            padding: 16px 24px;
+            border-radius: 30px;
+            transition: all 200ms ease;
+            box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+            cursor: pointer;
+        }
+        button:hover{
+          background-color:blanchedalmond;
+          color: black;
+        }
+        
+    </style>
+        
+</head>
+        
+<body>
+
+
+ 
+
+<div class="web_content ">
+    <h1>
+    Moonlight Events
+  </h1>
+  <h1>
+    Welcome to Moonlight Events!😇
+  </h1>
+  <p>
+    In a world where moments pass by in the blink of an eye, we at Moonlight Events believe in capturing them – and what
+    better way than under the serene beauty of a picnic?
+  </p>
+
+</div>
+
+<div class="web_content">
+    <h1>
+      About us
+   </h1>
+    
+  
+  <p>
+    Moonlight Events is not just an event planning company; we are memory weavers, moment captors, and dreamers who believe
+    in creating enchanting experiences that last a lifetime. Established in 2023, we have since transformed countless
+    outdoor spaces into magical picnic wonderlands under buildings.
+  </p>
+
+</div>
+   
+<div class="web_content">
+    <h1>
+      Our Services
+      
+    </h1>
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/099/384/original/IMG-20230620-WA0157_edit_53021598247637.jpg?1696712662" alt="decor">
+
+    <p>
+    <strong>Under The Stars:</strong>  Set amidst nature, our picnics are crafted with a personal touch, offering gourmet meals, plush
+    seating, and an ambiance illuminated by twinkling fairy lights and soft lanterns.<br/><strong>Gatherings:</strong>   Be it a romantic date, a birthday bash, or just a night out with friends, our themed picnics
+    offer an unforgettable experience tailor-made to your desires.
+    
+    </p>
+    
+    <button>
+        Book Now
+
+    </button>
+    <h3>
+      Booking Status
+    </h3>
+
+</div>
+<div class="web_content">
+    <h1>
+    Our Prices
+    </h1>
+   <ol>
+     <li>
+        Picnic for 2 R200
+     </li>
+     <li>
+        picnic for 4 R400
+     </li>
+     <li>
+        picnic for 6 R600
+     </li>
+     <h2>
+       <em><hr>Excluding food😭</em>
+     </h2>
+    
+   </ol>
+</div>
+
+<div class="web_content">
+    <h1>
+    Contact Us
+    </h1>
+    <p>
+      Want to know more or book an event? Get in touch! You can find us on <a href="https://www.facebook.com/" class="website-url"><span style="color:deeppink" >facebook</span></a>, <a href="https://www.Instagram.com/" class="website-url"><span style="color:deeppink">Instagram</span></a>, and <a href="https://www.x.com/" class="website-url"><span style="color:deeppink">X</span></a> or simply
+      drop us an email at <a href="https://www.facebook.com/" class="website-url"><span style="color:deeppink">MoonlightEvent@gmail.com</span></a><br/>Come, join us in creating magic under the moonlght sky. Your moonlight memory awaits! 🌙✨
+    </P>
+
+</div>
+<script>
+    function Bookings() {
+        let numberOfPeople= prompt("How many people are you booking for?");
+        let BookingStatus = document.querySelector("h3");
+        if (numberOfPeople <7) {
+
+            BookingStatus.innerHTML="Thank you for choosing us😀";
+
+        } else {
+
+            BookingStatus.innerHTML = "Thank you for choosing us😀 we will inbox you the qoutation💸.";
+        
+        }
+        alert("Thank you for using our website!!🎊")
+
+    }  
+   
+let BookNow = document.querySelector("button");
+BookNow.addEventListener("click", Bookings);    
+</script>
+
+<h2>
+  Coded By <span style="color:deeppink">Experience</span>
+</h2>
+
+
+</body>
+</html>
